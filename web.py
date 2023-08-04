@@ -3,7 +3,6 @@ import streamlit as st
 import requests
 import boto3
 import toml
-import pandas
 
 # Load AWS credentials from secrets.toml
 secrets = toml.load(".streamlit/secrets.toml")
