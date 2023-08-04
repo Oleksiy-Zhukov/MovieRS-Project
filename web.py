@@ -4,6 +4,8 @@ import requests
 import boto3
 import toml
 
+st. set_page_config(layout="wide")
+
 # Load AWS credentials from secrets.toml
 secrets = toml.load(".streamlit/secrets.toml")
 aws_access_key = secrets['aws']['AWS_ACCESS_KEY_ID']
