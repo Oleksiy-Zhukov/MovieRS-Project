@@ -22,20 +22,20 @@ def load_data_from_s3():
     )
     
     # Load movies data
-    # movies_obj = s3.Object(bucket_name, 'movies_df_1.pkl')
-    # movies = pickle.loads(movies_obj.get()['Body'].read())
+    movies_obj = s3.Object(bucket_name, 'movies_df_1.pkl')
+    movies = pickle.loads(movies_obj.get()['Body'].read())
     
     # Load movie_list data (assuming it's a list of movie names)
     similarity_obj = s3.Object(bucket_name, 'similarity.pkl')
     similarity = pickle.loads(similarity_obj.get()['Body'].read())
     
-    return similarity
+    return movies, similarity
 
 # Load data from S3
-similarity = load_data_from_s3()
+movies, similarity = load_data_from_s3()
 
 
-movies = pickle.load(open('movies_df.pkl','rb'))
+#movies = pickle.load(open('movies_df.pkl','rb'))
 #similarity = pickle.load(open('similarity.pkl','rb'))
 
 movie_list = movies['title'].values
