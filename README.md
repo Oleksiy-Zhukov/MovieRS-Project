@@ -2,7 +2,7 @@
 
 ## Project Demo
 
-[<a href="https://youtu.be/q-WajVFMZ7A"><img src="https://github.com/Oleksiy-Zhukov/MovieRS-Project/assets/75014961/336f2168-c99d-4a46-bddc-936477f7ceea"></a>](https://youtu.be/q-WajVFMZ7A)
+<a href="https://youtu.be/q-WajVFMZ7A"><img src="https://github.com/Oleksiy-Zhukov/MovieRS-Project/assets/75014961/336f2168-c99d-4a46-bddc-936477f7ceea" alt="Project Demo"></a>
 
 https://youtu.be/q-WajVFMZ7A
 
